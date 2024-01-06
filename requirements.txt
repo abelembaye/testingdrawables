@@ -1,0 +1,5 @@
+streamlit
+python=3.9
+git+https://github.com/abelembaye/streamlit-drawable4testing.git
+pillow
+pandas
