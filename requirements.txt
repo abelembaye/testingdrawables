@@ -1,7 +1,6 @@
-pillow
-pandas
 streamlit
 st-files-connection @ git+https://github.com/streamlit/files-connection.git@4cfffa022c15f00087a101d3c057fc901cb69c79
 streamlit-authenticator==0.2.3
-streamlit-drawable4testing @ file:///C:/Users/aembaye/streamlit-drawable4testing-1.0.0
+streamlit-drawable4testing @ git+https://github.com/abelembaye/streamlit-drawable4testing.git@main
 streamlit-option-menu==0.3.6
+
