@@ -3,9 +3,9 @@
 import pandas as pd
 from PIL import Image
 import streamlit as st
-# from streamlit_drawable_canvas import st_canvas
+from streamlit_drawable_canvas import st_canvas
 # pip install git+https://github.com/abelembaye/streamlit-drawable4testing.git
-from streamlit_drawable4testing import st_canvas
+#from streamlit_drawable4testing import st_canvas
 import json
 import os
 import fn4authen_app  # as auth?
@@ -27,7 +27,8 @@ st.write("Q02. For the following question, please draw on the canvas below")
 
 drawing_mode = st.sidebar.selectbox(
     "Drawing tool:", ("point", "line", #"rect", "circle",
-                      "curve", "text", "transform")
+                      #"curve", "text", "transform")
+                     )
 )
 
 # stroke_width = st.sidebar.slider("Stroke width: ", 1, 25, 3)
