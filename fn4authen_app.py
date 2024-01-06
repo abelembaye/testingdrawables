@@ -4,7 +4,7 @@
 # See more detail at:
 # https://docs.streamlit.io/knowledge-base/deploy/authentication-without-sso
 
-import hmac
+import hmac # pip install hmac
 import streamlit as st
 
 

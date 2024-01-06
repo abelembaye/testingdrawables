@@ -3,10 +3,10 @@
 import pandas as pd
 from PIL import Image  # install pillow
 import streamlit as st
-from streamlit_drawable_canvas import st_canvas
+# from streamlit_drawable_canvas import st_canvas
 # pip install git+https://github.com/abelembaye/streamlit-drawable4testing.git
 # pip install streamlit-drawable-canvas
-# from streamlit_drawable4testing import st_canvas
+from streamlit_drawable4testing import st_canvas  # is package in root folder
 import json
 import os
 import fn4authen_app  # as auth?
@@ -148,4 +148,4 @@ if canvas_result02.json_data is not None:
             img06.save(file_path, "JPEG")  # to disck
 
 # conda activate cvenv4st
-# streamlit run hw_chapt01.py
+# streamlit run hw_chapt02.py
