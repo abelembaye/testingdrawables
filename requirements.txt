@@ -1,5 +1,9 @@
-streamlit
-python==3.9
-git+https://github.com/abelembaye/streamlit-drawable4testing.git
 pillow
 pandas
+streamlit
+st-files-connection @ git+https://github.com/streamlit/files-connection.git@4cfffa022c15f00087a101d3c057fc901cb69c79
+streamlit-authenticator==0.2.3
+# Editable install with no version control (streamlit-custom-component==0.0.1)
+-e c:\users\aembaye\onedrive - university of arkansas\c2-embaye\rh\learn\_python\myprojects\mycomp4\template
+streamlit-drawable4testing @ file:///C:/Users/aembaye/streamlit-drawable4testing-1.0.0
+streamlit-option-menu==0.3.6
