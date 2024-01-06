@@ -1,0 +1,15 @@
+# ignore the following files
+.streamlit
+__pycache__
+black-heading-405002-e11b4e15b0e5.json
+fn2changeJson2toml.py
+#fn4authen_app.py
+fn4fet-send2cloud_f_Json.py
+fn4fet-send2cloud_toml.py
+hw_chapt01.py
+img01b.png
+replicate_dbconne_streamlitcloud.py
+#saved_state.json
+#saved_state0.json
+test.jpeg
+Z_TodoList4theProjectHere.py
