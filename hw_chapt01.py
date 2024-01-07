@@ -5,7 +5,6 @@ from PIL import Image  # install pillow
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 # pip install git+https://github.com/abelembaye/streamlit-drawable4testing.git
-# pip install streamlit-drawable-canvas
 # from streamlit_drawable4testing import st_canvas
 import json
 import os
